@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>JS DrumKit</title>
+  </head>
+  <body>
+    <div class="keys flex items-center justify-center min-h-screen flex-1">
+      <div
+        data-key="65"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-200 ease-linear"
+      >
+        <kbd class="text-white text-4xl">A</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >clap</span
+        >
+      </div>
+
+      <div
+        data-key="83"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">S</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >hihat</span
+        >
+      </div>
+
+      <div
+        data-key="68"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">D</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >kick</span
+        >
+      </div>
+
+      <div
+        data-key="70"
+        class="key min-h- flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">F</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >openhat</span
+        >
+      </div>
+
+      <div
+        data-key="71"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">G</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >boom</span
+        >
+      </div>
+
+      <div
+        data-key="72"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">H</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >ride</span
+        >
+      </div>
+
+      <div
+        data-key="74"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">J</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >snare</span
+        >
+      </div>
+
+      <div
+        data-key="75"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">K</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >tom</span
+        >
+      </div>
+
+      <div
+        data-key="76"
+        class="key flex flex-col border-4 border-solid border-black rounded-lg text-2xl py-4 px-0.5 w-[100px] text-center drop-shadow font-serif m-4 transition-all delay-75 ease-linear"
+      >
+        <kbd class="text-white text-4xl">L</kbd>
+        <span
+          class="sound text-yellow-400 block text-lg uppercase tracking-wide"
+          >tink</span
+        >
+      </div>
+    </div>
+
+    <!-- Sounds -->
+
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+  </body>
+</html>
