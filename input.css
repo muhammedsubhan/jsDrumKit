@@ -12,3 +12,9 @@ html {
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
+
+.key {
+  transition: all 0.7s;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 5px black;
+}
